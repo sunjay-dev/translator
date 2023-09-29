@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <script src="script.js"></script>
+  <div>
+  <h1> Translator</h1>
+    <br>
+    <select id="select" class="custom-select">
+  <option data-output="af">Afrikaans</option>
+  <option data-output="sq">Albanian</option>
+  <option data-output="am">Amharic</option>
+  <option data-output="ar">Arabic</option>
+  <option data-output="hy">Armenian</option>
+  <option data-output="az">Azerbaijani</option>
+  <option data-output="eu">Basque</option>
+  <option data-output="be">Belarusian</option>
+  <option data-output="bn">Bengali</option>
+  <option data-output="bs">Bosnian</option>
+  <option data-output="bg">Bulgarian</option>
+  <option data-output="ca">Catalan</option>
+  <option data-output="ceb">Cebuano</option>
+  <option data-output="ny">Chichewa</option>
+  <option data-output="zh-CN">Chinese (Simplified)</option>
+  <option data-output="zh-TW">Chinese (Traditional)</option>
+  <option data-output="co">Corsican</option>
+  <option data-output="hr">Croatian</option>
+  <option data-output="cs">Czech</option>
+  <option data-output="da">Danish</option>
+  <option data-output="nl">Dutch</option>
+  <option data-output="en" selected>English</option>
+  <option data-output="eo">Esperanto</option>
+  <option data-output="et">Estonian</option>
+  <option data-output="tl">Filipino</option>
+  <option data-output="fi">Finnish</option>
+  <option data-output="fr">French</option>
+  <option data-output="fy">Frisian</option>
+  <option data-output="gl">Galician</option>
+  <option data-output="ka">Georgian</option>
+  <option data-output="de">German</option>
+  <option data-output="el">Greek</option>
+  <option data-output="gu">Gujarati</option>
+  <option data-output="ht">Haitian Creole</option>
+  <option data-output="ha">Hausa</option>
+  <option data-output="haw">Hawaiian</option>
+  <option data-output="iw">Hebrew</option>
+  <option data-output="hi">Hindi</option>
+  <option data-output="hmn">Hmong</option>
+  <option data-output="hu">Hungarian</option>
+  <option data-output="is">Icelandic</option>
+  <option data-output="ig">Igbo</option>
+  <option data-output="id">Indonesian</option>
+  <option data-output="ga">Irish</option>
+  <option data-output="it">Italian</option>
+  <option data-output="ja">Japanese</option>
+  <option data-output="jw">Javanese</option>
+  <option data-output="kn">Kannada</option>
+  <option data-output="kk">Kazakh</option>
+  <option data-output="km">Khmer</option>
+  <option data-output="rw">Kinyarwanda</option>
+  <option data-output="ko">Korean</option>
+  <option data-output="ku">Kurdish (Kurmanji)</option>
+  <option data-output="ky">Kyrgyz</option>
+  <option data-output="lo">Lao</option>
+  <option data-output="la">Latin</option>
+  <option data-output="lv">Latvian</option>
+  <option data-output="lt">Lithuanian</option>
+  <option data-output="lb">Luxembourgish</option>
+  <option data-output="mk">Macedonian</option>
+  <option data-output="mg">Malagasy</option>
+  <option data-output="ms">Malay</option>
+  <option data-output="ml">Malayalam</option>
+  <option data-output="mt">Maltese</option>
+  <option data-output="mi">Maori</option>
+  <option data-output="mr">Marathi</option>
+  <option data-output="mn">Mongolian</option>
+  <option data-output="my">Myanmar (Burmese)</option>
+  <option data-output="ne">Nepali</option>
+  <option data-output="no">Norwegian</option>
+  <option data-output="or">Odia (Oriya)</option>
+  <option data-output="ps">Pashto</option>
+  <option data-output="fa">Persian</option>
+  <option data-output="pl">Polish</option>
+  <option data-output="pt">Portuguese</option>
+  <option data-output="pa">Punjabi</option>
+  <option data-output="ro">Romanian</option>
+  <option data-output="ru">Russian</option>
+  <option data-output="sm">Samoan</option>
+  <option data-output="gd">Scots Gaelic</option>
+  <option data-output="sr">Serbian</option>
+  <option data-output="st">Sesotho</option>
+  <option data-output="sn">Shona</option>
+  <option data-output="sd">Sindhi</option>
+  <option data-output="si">Sinhala</option>
+  <option data-output="sk">Slovak</option>
+  <option data-output="sl">Slovenian</option>
+  <option data-output="so">Somali</option>
+  <option data-output="es">Spanish</option>
+  <option data-output="su">Sundanese</option>
+  <option data-output="sw">Swahili</option>
+  <option data-output="sv">Swedish</option>
+  <option data-output="tg">Tajik</option>
+  <option data-output="ta">Tamil</option>
+  <option data-output="tt">Tatar</option>
+  <option data-output="te">Telugu</option>
+  <option data-output="th">Thai</option>
+  <option data-output="tr">Turkish</option>
+  <option data-output="tk">Turkmen</option>
+  <option data-output="uk">Ukrainian</option>
+  <option data-output="ur">Urdu</option>
+  <option data-output="ug">Uyghur</option>
+  <option data-output="uz">Uzbek</option>
+  <option data-output="vi">Vietnamese</option>
+  <option data-output="cy">Welsh</option>
+  <option data-output="xh">Xhosa</option>
+  <option data-output="yi">Yiddish</option>
+  <option data-output="yo">Yoruba</option>
+  <option data-output="zu">Zulu</option>
+</select>
+<span>to</span>
+<select id="select1" class="custom-select">
+  <option data-output="af">Afrikaans</option>
+  <option data-output="sq">Albanian</option>
+  <option data-output="am">Amharic</option>
+  <option data-output="ar">Arabic</option>
+  <option data-output="hy">Armenian</option>
+  <option data-output="az">Azerbaijani</option>
+  <option data-output="eu">Basque</option>
+  <option data-output="be">Belarusian</option>
+  <option data-output="bn">Bengali</option>
+  <option data-output="bs">Bosnian</option>
+  <option data-output="bg">Bulgarian</option>
+  <option data-output="ca">Catalan</option>
+  <option data-output="ceb">Cebuano</option>
+  <option data-output="ny">Chichewa</option>
+  <option data-output="zh-CN">Chinese (Simplified)</option>
+  <option data-output="zh-TW">Chinese (Traditional)</option>
+  <option data-output="co">Corsican</option>
+  <option data-output="hr">Croatian</option>
+  <option data-output="cs">Czech</option>
+  <option data-output="da">Danish</option>
+  <option data-output="nl">Dutch</option>
+  <option data-output="en">English</option>
+  <option data-output="eo">Esperanto</option>
+  <option data-output="et">Estonian</option>
+  <option data-output="tl">Filipino</option>
+  <option data-output="fi">Finnish</option>
+  <option data-output="fr">French</option>
+  <option data-output="fy">Frisian</option>
+  <option data-output="gl">Galician</option>
+  <option data-output="ka">Georgian</option>
+  <option data-output="de">German</option>
+  <option data-output="el">Greek</option>
+  <option data-output="gu">Gujarati</option>
+  <option data-output="ht">Haitian Creole</option>
+  <option data-output="ha">Hausa</option>
+  <option data-output="haw">Hawaiian</option>
+  <option data-output="iw">Hebrew</option>
+  <option data-output="hi">Hindi</option>
+  <option data-output="hmn">Hmong</option>
+  <option data-output="hu">Hungarian</option>
+  <option data-output="is">Icelandic</option>
+  <option data-output="ig">Igbo</option>
+  <option data-output="id">Indonesian</option>
+  <option data-output="ga">Irish</option>
+  <option data-output="it">Italian</option>
+  <option data-output="ja">Japanese</option>
+  <option data-output="jw">Javanese</option>
+  <option data-output="kn">Kannada</option>
+  <option data-output="kk">Kazakh</option>
+  <option data-output="km">Khmer</option>
+  <option data-output="rw">Kinyarwanda</option>
+  <option data-output="ko">Korean</option>
+  <option data-output="ku">Kurdish (Kurmanji)</option>
+  <option data-output="ky">Kyrgyz</option>
+  <option data-output="lo">Lao</option>
+  <option data-output="la">Latin</option>
+  <option data-output="lv">Latvian</option>
+  <option data-output="lt">Lithuanian</option>
+  <option data-output="lb">Luxembourgish</option>
+  <option data-output="mk">Macedonian</option>
+  <option data-output="mg">Malagasy</option>
+  <option data-output="ms">Malay</option>
+  <option data-output="ml">Malayalam</option>
+  <option data-output="mt">Maltese</option>
+  <option data-output="mi">Maori</option>
+  <option data-output="mr">Marathi</option>
+  <option data-output="mn">Mongolian</option>
+  <option data-output="my">Myanmar (Burmese)</option>
+  <option data-output="ne">Nepali</option>
+  <option data-output="no">Norwegian</option>
+  <option data-output="or">Odia (Oriya)</option>
+  <option data-output="ps">Pashto</option>
+  <option data-output="fa">Persian</option>
+  <option data-output="pl">Polish</option>
+  <option data-output="pt">Portuguese</option>
+  <option data-output="pa">Punjabi</option>
+  <option data-output="ro">Romanian</option>
+  <option data-output="ru">Russian</option>
+  <option data-output="sm">Samoan</option>
+  <option data-output="gd">Scots Gaelic</option>
+  <option data-output="sr">Serbian</option>
+  <option data-output="st">Sesotho</option>
+  <option data-output="sn">Shona</option>
+  <option data-output="sd">Sindhi</option>
+  <option data-output="si">Sinhala</option>
+  <option data-output="sk">Slovak</option>
+  <option data-output="sl">Slovenian</option>
+  <option data-output="so">Somali</option>
+  <option data-output="es">Spanish</option>
+  <option data-output="su">Sundanese</option>
+  <option data-output="sw">Swahili</option>
+  <option data-output="sv">Swedish</option>
+  <option data-output="tg">Tajik</option>
+  <option data-output="ta">Tamil</option>
+  <option data-output="tt">Tatar</option>
+  <option data-output="te">Telugu</option>
+  <option data-output="th">Thai</option>
+  <option data-output="tr">Turkish</option>
+  <option data-output="tk">Turkmen</option>
+  <option data-output="uk">Ukrainian</option>
+  <option data-output="ur" selected>Urdu</option>
+  <option data-output="ug">Uyghur</option>
+  <option data-output="uz">Uzbek</option>
+  <option data-output="vi">Vietnamese</option>
+  <option data-output="cy">Welsh</option>
+  <option data-output="xh">Xhosa</option>
+  <option data-output="yi">Yiddish</option>
+  <option data-output="yo">Yoruba</option>
+  <option data-output="zu">Zulu</option>
+</select>
+    <br> <br>
+  <textarea placeholder="Give Input here" id="in"></textarea>
+    <textarea placeholder="Translation will show here" id="h3" disabled></textarea>
+    </br> </br>
+  <button onclick="translateText()">translate</button>
+  
+<button onclick="copyTranslation()">Copy</button>
+    <br><br>
+    
+  </div>
+  
+
+</body>
+
+</html>

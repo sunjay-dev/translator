@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #299492;
+}
+
+button {
+  background-color: #299492;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a hover effect to the button */
+button:hover {
+  background-color: #936525;
+}
+
+.textarea-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+textarea {
+  /* Adjust the width as per your preference */
+  height: 200px; /* Adjust the height as per your preference */
+  resize: vertical; /* Allow vertical resizing of the textarea */
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: wheat;
+}
+
+/* Responsive adjustments for mobile devices */
+@media only screen and (max-width: 768px) {
+  .textarea-container {
+    flex-direction: column;
+  }
+
+ span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  } 
+  
+}
+/* Reset default styles to remove browser-specific styles */
+.custom-select {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 24px; /* Reserve space for the arrow */
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+/* Style the custom arrow icon */
+.custom-select .arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333; /* Customize arrow color */
+  pointer-events: none;
+}
+
+/* Style the dropdown when it's open */
+.custom-select select:focus {
+  outline: none;
+  box-shadow: 0 0 4px #007bff; /* Customize the box shadow color as desired */
+}
