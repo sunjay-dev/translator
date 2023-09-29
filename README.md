@@ -27,10 +27,7 @@ To run the translator website locally, follow these steps:
    cd translator
    ```
 
-3. **Configuration:**
-   - Add your Rapid API key in the appropriate configuration file.
-
-4. **Run the Website:**
+3. **Run the Website:**
    - Open the `index.html` file in your preferred web browser.
 
 ## Dependencies
