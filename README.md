@@ -38,10 +38,6 @@ To run the translator website locally, follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
-
-If you would like to contribute to the development of this translator website, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## Issues
 
 If you encounter any issues or have suggestions for improvement, please create a new issue on the [Issues](https://github.com/sunjay-dev/translator/issues) page.
