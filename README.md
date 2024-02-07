@@ -3,7 +3,7 @@
 ## Live on Replit (latest: since repit doesn't support 'repl.co' domain anymore, the website is now hosted to gitub.dev, link given below: )
 head to link [https://translator.aryank11.repl.co](https://translator.aryank11.repl.co)
 
-head to github.dev link: [https://sunjay-dev.github.io/translator/]
+head to github.dev link: [https://sunjay-dev.github.io/translator/](https://sunjay-dev.github.io/translator/)
 ## Overview
 
 This is a simple and efficient translator website that allows users to translate text between different languages. It leverages the power of the Rapid API for language translation services and is designed to be responsive, ensuring a seamless experience across various devices.
